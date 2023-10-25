@@ -1,7 +1,7 @@
 @ECHO OFF
 
 REM
-:: A batch script to display disply specfic processes for routine monitoring.
+:: A batch script to display  specific processes for routine monitoring.
 :: This file must be saved in ASCII format to be executable.
 ::
 
@@ -22,7 +22,7 @@ ECHO ...working...
 ECHO.
 ECHO.
 
-REM display any process where memeroy usage is greater that 1 gig
+REM display any process where memory usage is greater that 1 gig
 tasklist /S %_address% /U %_user% /v /FI "MEMUSAGE gt 1000000" /P %_pass%
 
 ECHO.
