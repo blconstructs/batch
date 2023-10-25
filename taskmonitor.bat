@@ -1,7 +1,7 @@
 @ECHO OFF
 
 REM
-:: A batch script to display  specific processes for routine monitoring.
+:: A batch script to display specific processes for routine monitoring.
 :: This file must be saved in ASCII format to be executable.
 ::
 
